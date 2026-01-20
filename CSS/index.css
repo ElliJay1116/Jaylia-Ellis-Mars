@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(177, 122, 157);
+    color: rgb(50, 50, 237);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+h1 {
+    font-size: 100px;
+    font-weight: 300;
+    color:rgb(81, 9, 9);
+    text-align: center;
+    font-style: italic;
+    margin-top: 90px;
+}
+h2 {
+    text-align: center;
+    color: rgb(162, 99, 16);
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.experience {
+    text-align: center;
+    font-size: 25px;
+}
+.connect {
+    color:rgb(212, 237, 50)
+}
+li {
+    margin: 10px 20px 30px 40px;
+}
+.experience-list {
+    color: aqua;
+    border: 1px solid;
+    list-style:square;
+}
+a:link, a:hover {
+    color: yellow;
+    display: inline-block;
+}
