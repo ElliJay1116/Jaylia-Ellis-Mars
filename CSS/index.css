@@ -60,3 +60,15 @@ a:link, a:hover {
     gap: 10px; 
     padding: 0;
 }
+
+/* Leave a message/messages */
+.leaveMessageForm {
+
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.formHeader {
+    color:rgb(148, 29, 10)
+}

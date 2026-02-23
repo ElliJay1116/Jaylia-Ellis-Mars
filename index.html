@@ -14,11 +14,12 @@
 
     <nav class="headerz">
   <ol>
-    <li class="headez"><a href="#">About</a></li>
-    <li class="headez"><a href="#">Experience</a></li>
-    <li class="headez"><a href="#">Skills</a></li>
-    <li class="headez"><a href="#">Connect</a></li>
-    <li class="headez"><a href="#">Projects</a></li>
+    <li class="headerz"><a href="#">About</a></li>
+    <li class="headerz"><a href="#">Experience</a></li>
+    <li class="headerz"><a href="#">Skills</a></li>
+    <li class="headerz"><a href="#">Connect</a></li>
+    <li class="headerz"><a href="#">Projects</a></li>
+    <li><a href="#leave_message">Leave a Message</a></li>
   </ol>
 </nav>
 
@@ -62,6 +63,32 @@
         <ul>
 
         </ul> </section>
+       <section id="leave_message">
+        <h2 class="formHeader">  Leave a Message</h2>
+        <form class="leaveMessageForm" name="leave_message">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <br><br>
+
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" name="userEmail" required>
+
+            <br><br>
+             <label for="userMessage">Message:</label>
+            <textarea id="userMessage" name="userMessage" required></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+       <section id="messages"> 
+       <h2> Messages </h2>
+       <ul></ul>
+
+       </section>
        <script src="js/index.js"></script>
 
 </body>
