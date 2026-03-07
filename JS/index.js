@@ -71,3 +71,34 @@ const messageForm = document.forms["leave_message"];
 
     messageForm.reset();
  });
+
+ //fetch//
+
+ fetch("https://api.github.com/users/ElliJay1116/repos")
+    .then(function (response) {
+        return response.json();
+    })
+    .then (function (repositories) {
+
+console.log(repositories);
+
+// const promise = new Promise((resolve, reject) => {
+//     throw new Error("error: repo is empty");
+// })
+//     promise.catch(Error) ; {
+//         console.error(Error);
+//     };
+const projectSection = document.getElementById("Projects");
+const projectList= projectSection.querySelector("ul");
+
+for (let i = 0; i < repositories.length; i++) {
+    const project = document.createElement("li");
+    project.innerText = repositories[i] ["name"];
+    projectList.appendChild(project);
+
+}
+    })
+
+  .catch(error => {
+        console.error("error: repo is empty", error.message);
+    });

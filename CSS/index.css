@@ -72,3 +72,9 @@ a:link, a:hover {
 .formHeader {
     color:rgb(148, 29, 10)
 }
+ /* Projects */
+
+ .projectlist {
+    display: grid;
+    color: chartreuse;
+ }
