@@ -25,7 +25,7 @@ const skills = [
     "Salesforce", 
     "Relationship Building", 
     "Objection Handling", 
-    "Porblem Solving", 
+    "Problem Solving", 
     "Time Management", 
     "Customer Onboarding" ];
 const skillSection = document.getElementById("skills");
